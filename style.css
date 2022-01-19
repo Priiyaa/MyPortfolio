@@ -272,8 +272,11 @@ display:grid;
         justify-content: center;
     }
     .para{
-        margin-left: 7rem;
+        margin-left: 5rem;
         font-size: 20px;
+    }
+    .info .btn{
+margin-left: 30%;
     }
     h2{
         font-size: 35px;
