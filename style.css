@@ -311,7 +311,7 @@ display:grid;
 .card-body{
     
     background-image: linear-gradient(white,rgb(211, 248, 143));
-    width: 300px;
+    width: 100%;
 }
 .projectCard{
     margin-top: 5rem;
