@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Dancing+Script&family=Neonderthaw&family=Vujahday+Script&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: 'Neonderthaw', cursive;
+    font-size: 60px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 50px;
+    font-family: 'Vujahday Script', cursive;
+    
+    font-weight: bolder;
+}
+.head{
+    margin-top: 1rem;
+    height: 10rem;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+     
+    
+        animation: pulse 5s infinite ease-in-out;
+}
+      
+      @keyframes pulse {
+        0% {
+          background-color: rgb(235, 138, 138);
+        }
+        100% {
+          background-color: lavenderblush;
+        }
+      }
+      
+      html,
+      body {
+        height: 100%;
+      }
+
+
+nav{
+    background-color: black;
+   
+}
+.container{
+
+    display: flex;
+    margin-top:8rem;
+    justify-content: center;
+}
+.pic img{
+    
+    border-radius: 160px;
+    height: 20rem;
+}
+
+.para{
+    font-size: 25px;
+  
+    
+}
+.info{
+    float: right;
+    margin: 50px 100px 50px 10%;
+    
+}
+.aboutme{
+    background-image: linear-gradient(white,lavender);
+    margin-top: 5rem;
+    padding: 60px;
+}
+.aboutPara{
+    margin-top: 60px;
+    font-size: 23px;
+}
+
+.myinterest{
+    font-size: 40px;
+font-family: 'Dancing Script', cursive;
+margin-top: 2rem;
+text-align: center;
+background-color: lavender;
+font-weight: bolder;
+border-radius: 50px;
+}
+.interestPara{
+    font-size: 23px;
+    margin-top: 2rem;
+
+}
+.learning{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: lavender;
+    font-weight: bolder;
+    border-radius: 50px;
+
+}
+.learnPara{
+    font-size: 23px;
+    margin-top: 2rem;
+}
+.projects{
+    margin-top: 4rem;
+ 
+}
+.projectHead{
+    text-align: center;
+}
+.carousel{
+    margin: 5rem;
+    box-shadow: 9px 10px gray;
+}
+.carousel-item img{
+    
+    width:100px;
+    height: 500px;
+}
+.carousel-control-next-icon{
+    background-color: black;
+    border-radius: 50px;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 50px;
+}
+.bestProject{
+    margin-top: 5rem;
+    padding: 5rem;
+    text-align: center;
+}
+.projectCard{
+    margin: 5rem;
+}
+.card-body{
+    background-image: linear-gradient(white,rgb(211, 248, 143));
+}
+
+.moreProject{
+    margin-top: 5rem;
+    background-image: linear-gradient(white, wheat);
+    height: auto;
+}
+.more{
+    margin: 10px;
+}
+ .moreProject .btn{
+    margin-left: 40%;
+}
+.both{
+    display: flex;
+    width: 100%;
+}
+address a{
+    color: white;
+    text-decoration: none;
+}
+.list-unstyled a{
+    color: white;
+    text-decoration: none;
+}
+.Links{
+width: 50%;
+
+}
+.row{
+    width: 100%;
+}
+.address{
+    padding-left: 50%;
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color:rgb(243, 235, 235);
+   
+    width: 100%;
+    height: auto;
+  
+   
+    margin-top:10rem;
+}
+.fa{
+    padding: 4px;
+}
+.text-center{
+    width: 100%;
+  
+    
+
+}
+
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+ 
+  /* Twitter */
+  .fa-twitter {
+   
+    color: white;
+  }
+  .fa-linkedin {
+   
+    color: white;
+  }
+  .fa-instagram {
+   
+    color: white;
+  }
+  .fa-github {
+   
+    color: white;
+  }
+  .fa-skype {
+   
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:425px){
+    h1{
+        font-size: 40px;
+    }
+    .head{
+width: 100%;
+height: 7rem;
+    }
+    .para img{
+        border-radius: 160px;
+        height: 10rem;       
+    }
+    .pic{
+        margin-left: 3rem;
+    }
+    .container{
+display:grid;
+        margin-top:3rem;
+        justify-content: center;
+    }
+    .para{
+        margin-left: 7rem;
+        font-size: 20px;
+    }
+    h2{
+        font-size: 35px;
+    font-family: 'Vujahday Script', cursive;
+  margin-left:5rem;
+    font-weight: bolder;
+    }
+    .info{
+        float: right;
+        margin: 50px 100px 50px 10%;
+}
+
+.aboutme{
+    
+    margin-top: 2rem;
+    padding: 15px;
+}
+.aboutPara{
+    width: 100%;
+    margin: 20px auto ;
+    font-size: 20px;
+}
+.carousel{
+    margin:5rem 0px 0px;
+    box-shadow: 0px 0px gray;
+}
+.carousel-item img{
+    
+    width:100%;
+    height: 500px;
+}
+.bestProject{
+    padding: 0;
+}
+.card-body{
+    
+    background-image: linear-gradient(white,rgb(211, 248, 143));
+    width: 300px;
+}
+.projectCard{
+    margin-top: 5rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+.more{
+    
+    margin: 10px;
+}
+.moreProject .btn{
+    margin-left: 6rem;
+}
+.address{
+  padding-left:10% ;
+    width: 50%;
+}
+.Links{
+    width: 50%;
+}
+
+}
