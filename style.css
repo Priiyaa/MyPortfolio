@@ -170,6 +170,7 @@ width: 50%;
 }
 .row{
     width: 100%;
+    display: flex;
 }
 .address{
     padding-left: 50%;
