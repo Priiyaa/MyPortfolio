@@ -226,7 +226,10 @@ footer{
    
     color: white;
   }
-
+.card-body img{
+    
+    height: 400px;
+}
 
 
 
@@ -335,6 +338,10 @@ margin-left: 30%;
 }
 .Links{
     width: 50%;
+}
+.card-body img{
+    
+    height: auto;
 }
 
 }
